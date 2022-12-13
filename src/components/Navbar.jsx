@@ -5,7 +5,7 @@ export default function header(props) {
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/#">
             <img src={props.img} className={props.className} alt="olxLogo" />
           </a>
           <button

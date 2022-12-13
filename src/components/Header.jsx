@@ -5,7 +5,7 @@ export default function header(props) {
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand " href="#">
+          <a class="navbar-brand " href="/#">
             <img className={props.className} src={props.img} alt="olxLogo" />
           </a>
           <button
@@ -22,12 +22,12 @@ export default function header(props) {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link active" aria-current="page" href="/#">
                  {props.list1}
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/#">
                  {props.list2}
                 </a>
               </li>
